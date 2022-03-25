@@ -1,7 +1,6 @@
 <template>
     <div id="app">
         <div class="wrap">
-          Hello
             <router-view></router-view>
         </div>
     </div>
@@ -13,4 +12,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+</style>
